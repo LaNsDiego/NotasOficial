@@ -46,8 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidad\ClsCapacidad.cs" />
+    <Compile Include="Entidad\ClsCarrera.cs" />
+    <Compile Include="Entidad\ClsCriterio.cs" />
     <Compile Include="Entidad\ClsDocente.cs" />
     <Compile Include="Entidad\ClsEstudiante.cs" />
+    <Compile Include="Entidad\ClsModulo.cs" />
+    <Compile Include="Entidad\ClsNota.cs" />
+    <Compile Include="Entidad\ClsSemestre.cs" />
+    <Compile Include="Entidad\ClsSilabo.cs" />
+    <Compile Include="Entidad\ClsUnidad.cs" />
+    <Compile Include="Entidad\ClsUsuario.cs" />
     <Compile Include="Negocio\ClsNConexion.cs" />
     <Compile Include="Negocio\ClsNEstudiante.cs" />
     <Compile Include="Negocio\ClsNFichero.cs" />
