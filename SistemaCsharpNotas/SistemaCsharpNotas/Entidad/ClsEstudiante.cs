@@ -8,7 +8,7 @@ namespace SistemaCsharpNotas.Entidad
 {
     class ClsEstudiante
     {
-        public int Id;
+        public int Id;             
         public string Codigo;
         public string Dni;
         public string Nombres;
@@ -17,15 +17,15 @@ namespace SistemaCsharpNotas.Entidad
         public string Correo;
 
 
-        public ClsEstudiante(int id, string codigo, string dni, string nombres, string apellidos, string sexo, string correo)
-        {
-            Id = id;
-            Codigo = codigo;
-            Dni = dni;
-            Nombres = nombres;
-            Apellidos = apellidos;
-            Sexo = sexo;
-            Correo = correo;
-        }
+        //public ClsEstudiante(int id, string codigo, string dni, string nombres, string apellidos, string sexo, string correo)
+        //{
+        //    Id = id;
+        //    Codigo = codigo;
+        //    Dni = dni;
+        //    Nombres = nombres;
+        //    Apellidos = apellidos;
+        //    Sexo = sexo;
+        //    Correo = correo;
+        //}
     }
 }
