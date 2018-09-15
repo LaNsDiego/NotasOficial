@@ -1,0 +1,22 @@
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\bin\Debug\SistemaCsharpNotas.exe.config
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\bin\Debug\SistemaCsharpNotas.exe
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\bin\Debug\SistemaCsharpNotas.pdb
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmDocente.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmEstudiante.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmLogin.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmNota.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.FrmPrincipal.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Properties.Resources.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.csproj.GenerateResource.Cache
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.exe
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.pdb
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.csprojResolveAssemblyReference.cache
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmUsuario.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmCarreras.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmCursos.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmMatricula.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmModulos.resources
+C:\Users\AGabriel\Desktop\Programacion II\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmNotaAlumnos.resources
+C:\Users\AGabriel\Source\Repos\SistemaNotas\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\bin\Debug\SistemaCsharpNotas.exe.config
+C:\Users\AGabriel\Source\Repos\SistemaNotas\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.exe
+C:\Users\AGabriel\Source\Repos\SistemaNotas\SistemaCsharpNotas-master\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.pdb
