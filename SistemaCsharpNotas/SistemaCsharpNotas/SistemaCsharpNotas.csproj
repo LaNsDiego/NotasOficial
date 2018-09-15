@@ -57,9 +57,14 @@
     <Compile Include="Entidad\ClsSilabo.cs" />
     <Compile Include="Entidad\ClsUnidad.cs" />
     <Compile Include="Entidad\ClsUsuario.cs" />
+    <Compile Include="Negocio\ClsNCriterio.cs" />
+    <Compile Include="Negocio\ClsNCapacidad.cs" />
+    <Compile Include="Negocio\ClsNCarrera.cs" />
+    <Compile Include="Negocio\ClsNDocente.cs" />
     <Compile Include="Negocio\ClsNConexion.cs" />
     <Compile Include="Negocio\ClsNEstudiante.cs" />
     <Compile Include="Negocio\ClsNFichero.cs" />
+    <Compile Include="Negocio\ClsNModulo.cs" />
     <Compile Include="Negocio\ClsNSQLParametro.cs" />
     <Compile Include="Presentacion\FrmCarreras.cs">
       <SubType>Form</SubType>
