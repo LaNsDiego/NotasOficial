@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SistemaCsharpNotas.Negocio
 {
+    //esta clase no se usara hasta cuando se haga base de datos :)
     class ClsNSQLParametro
     {
         public object Valor;
