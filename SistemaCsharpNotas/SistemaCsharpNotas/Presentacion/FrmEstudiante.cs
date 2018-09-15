@@ -21,8 +21,7 @@ namespace SistemaCsharpNotas.Presentacion
 
         private void FrmEstudiante_Load(object sender, EventArgs e)
         {
-            ClsNEstudiante controlador = new ClsNEstudiante();
-            DgvEstudiante.DataSource = controlador.Listar().Tables[0];
+           
         }
 
         private void button4_Click(object sender, EventArgs e)

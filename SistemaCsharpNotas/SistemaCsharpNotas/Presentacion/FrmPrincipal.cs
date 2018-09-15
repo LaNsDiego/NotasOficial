@@ -33,8 +33,7 @@ namespace SistemaCsharpNotas
         private void BtnEstudiante_Click(object sender, EventArgs e)
         {
             FrmEstudiante frm = new FrmEstudiante();
-            frm.Show();
-            //AbrirFormHijo(frm);
+            AbrirFormHijo(frm);
         }
 
         private void BtnNotas_Click(object sender, EventArgs e)

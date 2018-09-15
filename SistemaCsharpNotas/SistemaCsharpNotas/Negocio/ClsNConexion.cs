@@ -23,7 +23,7 @@ namespace SistemaCsharpNotas.Negocio
         }
         private static void Conectar()
         {
-            ClsNConexion.conexion.Open();
+           ClsNConexion.conexion.Open();
         }
 
 

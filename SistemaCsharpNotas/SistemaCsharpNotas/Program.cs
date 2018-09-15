@@ -17,7 +17,7 @@ namespace SistemaCsharpNotas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmModulos());
+            Application.Run(new FrmLogin());
         }
     }
 }
