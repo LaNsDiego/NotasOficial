@@ -28,5 +28,10 @@ namespace SistemaCsharpNotas.Presentacion
         {
 
         }
+
+        private void BtnNuevo_Click(object sender, EventArgs e)
+        {
+            TxtCodigo.Enabled = false;
+        }
     }
 }

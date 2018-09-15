@@ -139,6 +139,7 @@
             this.BtnNuevo.TabIndex = 50;
             this.BtnNuevo.Text = "Nuevo";
             this.BtnNuevo.UseVisualStyleBackColor = false;
+            this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
             // 
             // groupBox1
             // 
