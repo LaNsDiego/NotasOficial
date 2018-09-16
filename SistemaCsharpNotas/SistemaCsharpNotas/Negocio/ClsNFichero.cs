@@ -11,10 +11,10 @@ namespace SistemaCsharpNotas.Negocio
     {
         private static StreamWriter escritor;
         private static StreamReader lector;
-        
-        private static StreamWriter ObtenerEscritor(string tabla)
+
+        private static StreamWriter ObtenerEscritor(string tabla, bool modo = true)
         {
-            return escritor != null ? escritor:new StreamWriter(tabla,true);
+            return escritor != null ? escritor : new StreamWriter(tabla, modo);
         }
 
         private static StreamReader ObtenerLector(string tabla)
@@ -34,7 +34,7 @@ namespace SistemaCsharpNotas.Negocio
             bool editado = false;
             string linea = string.Empty;
             StreamReader lector = ClsNFichero.ObtenerLector(tabla);
-            StreamWriter escritor = ClsNFichero.ObtenerEscritor("tmp" + tabla);
+            StreamWriter escritor = ClsNFichero.ObtenerEscritor("tmp" + tabla, false);
             while ((linea = lector.ReadLine()) != null)
             {
                 if (linea.Contains(textoABuscar))
