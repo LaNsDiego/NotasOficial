@@ -31,19 +31,29 @@ namespace SistemaCsharpNotas.Negocio
 
         public static bool Editar(string textoABuscar , string nuevoRegistro , string tabla)
         {
+            bool editado = false;
             string linea = string.Empty;
             StreamReader lector = ClsNFichero.ObtenerLector(tabla);
-            StreamWriter escritor = ClsNFichero.ObtenerEscritor(tabla);
+            StreamWriter escritor = ClsNFichero.ObtenerEscritor("tmp" + tabla);
             while ((linea = lector.ReadLine()) != null)
             {
                 if (linea.Contains(textoABuscar))
                 {
                     escritor.WriteLine(nuevoRegistro);
-                    return true;
+                    editado = true;
+                }
+                else
+                {
+                    escritor.WriteLine(linea);
                 }
             }
-            return false;
 
+            lector.Close();
+            escritor.Close();
+            File.Delete(tabla);
+
+            File.Move("tmp" + tabla, tabla);
+            return editado;
         }
 
         public static string Buscar(string textoABuscar , string tabla)
