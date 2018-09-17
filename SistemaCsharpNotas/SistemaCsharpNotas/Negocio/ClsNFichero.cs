@@ -29,7 +29,7 @@ namespace SistemaCsharpNotas.Negocio
             escritor.Close();
         }
 
-        public static bool Editar(string textoABuscar , string nuevoRegistro , string tabla)
+        public static bool Editar(string textoABuscar, string nuevoRegistro, string tabla, int columnaParaComparar = 0)
         {
             bool editado = false;
             string linea = string.Empty;
@@ -37,7 +37,9 @@ namespace SistemaCsharpNotas.Negocio
             StreamWriter escritor = ClsNFichero.ObtenerEscritor("tmp" + tabla, false);
             while ((linea = lector.ReadLine()) != null)
             {
-                if (linea.Contains(textoABuscar))
+                string[] campos = linea.Split(',');
+                Console.WriteLine("Comparado : " + campos[columnaParaComparar] + " == " + textoABuscar);
+                if (campos[columnaParaComparar] == textoABuscar)
                 {
                     escritor.WriteLine(nuevoRegistro);
                     editado = true;
@@ -47,29 +49,25 @@ namespace SistemaCsharpNotas.Negocio
                     escritor.WriteLine(linea);
                 }
             }
-
             lector.Close();
             escritor.Close();
             File.Delete(tabla);
-
             File.Move("tmp" + tabla, tabla);
             return editado;
         }
 
-        public static string Buscar(string textoABuscar , string tabla)
+        public static string Buscar(string textoABuscar, string tabla, int columnaParaComparar = 0)
         {
-            
             string linea = string.Empty;
-  
             StreamReader lector = ClsNFichero.ObtenerLector(tabla);
-            
-            while (( linea = lector.ReadLine()) != null)
+
+            while ((linea = lector.ReadLine()) != null)
             {
-                if (linea.Contains(textoABuscar))
+                string[] campos = linea.Split(',');
+                if (campos[columnaParaComparar] == textoABuscar)
                 {
                     lector.Close();
                     return linea;
-                   
                 }
             }
             lector.Close();
