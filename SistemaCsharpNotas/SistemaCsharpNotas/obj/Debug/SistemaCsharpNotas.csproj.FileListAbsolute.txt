@@ -61,3 +61,24 @@ F:\Proyectos\Proyectos C Sharp\NotasOficial\SistemaCsharpNotas\SistemaCsharpNota
 F:\Proyectos\Proyectos C Sharp\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.csproj.CoreCompileInputs.cache
 F:\Proyectos\Proyectos C Sharp\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.exe
 F:\Proyectos\Proyectos C Sharp\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.pdb
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\bin\Debug\SistemaCsharpNotas.exe.config
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\bin\Debug\SistemaCsharpNotas.exe
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\bin\Debug\SistemaCsharpNotas.pdb
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.csprojAssemblyReference.cache
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmCarreras.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmCursos.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmDocente.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmEstudiante.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmLogin.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmMatricula.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmMenuDocente.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmModulos.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmNotaAlumnos.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmNota.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.FrmPrincipal.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Presentacion.FrmUsuario.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.Properties.Resources.resources
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.csproj.GenerateResource.cache
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.csproj.CoreCompileInputs.cache
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.exe
+C:\Users\dvans\Desktop\temporalnotas\NotasOficial\SistemaCsharpNotas\SistemaCsharpNotas\obj\Debug\SistemaCsharpNotas.pdb

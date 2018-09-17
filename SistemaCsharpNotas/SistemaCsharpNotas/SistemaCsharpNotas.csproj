@@ -65,6 +65,7 @@
     <Compile Include="Negocio\ClsNEstudiante.cs" />
     <Compile Include="Negocio\ClsNFichero.cs" />
     <Compile Include="Negocio\ClsNModulo.cs" />
+    <Compile Include="Negocio\ClsNRequerido.cs" />
     <Compile Include="Negocio\ClsNSQLParametro.cs" />
     <Compile Include="Negocio\ClsNUsuario.cs" />
     <Compile Include="Presentacion\FrmCarreras.cs">
