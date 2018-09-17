@@ -19,13 +19,22 @@ namespace SistemaCsharpNotas.Presentacion
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-
-            FrmPrincipal frm = new FrmPrincipal();
-            this.Hide();
-            frm.Visible = true;
-            frm.Show();
+            bool acceso;
+            ClsNUsuario obj = new ClsNUsuario();
+            acceso = obj.Login(TxtUsuario.Text, TxtContraseña.Text);
+            if (acceso == true)
+            {
+                FrmPrincipal frm = new FrmPrincipal();
+                this.Hide();
+                frm.Visible = true;
+                frm.Show();
+            }
+            else
+            {
+                MessageBox.Show("Usuario y/o contraseña incorrecto");
+            }
         }
     }
 }

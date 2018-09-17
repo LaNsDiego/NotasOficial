@@ -66,6 +66,7 @@
     <Compile Include="Negocio\ClsNFichero.cs" />
     <Compile Include="Negocio\ClsNModulo.cs" />
     <Compile Include="Negocio\ClsNSQLParametro.cs" />
+    <Compile Include="Negocio\ClsNUsuario.cs" />
     <Compile Include="Presentacion\FrmCarreras.cs">
       <SubType>Form</SubType>
     </Compile>

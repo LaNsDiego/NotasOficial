@@ -52,5 +52,11 @@ namespace SistemaCsharpNotas
         {
             
         }
+
+        private void BtnUsuarios_Click(object sender, EventArgs e)
+        {
+            FrmUsuario frm = new FrmUsuario();
+            AbrirFormHijo(frm);
+        }
     }
 }

@@ -44,6 +44,10 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.CmbNivel = new System.Windows.Forms.ComboBox();
             this.DgvUsuario = new System.Windows.Forms.DataGridView();
+            this.colCodigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colClave = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colNivel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colEstado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -148,6 +152,7 @@
             this.BtnEditar.TabIndex = 75;
             this.BtnEditar.Text = "Editar";
             this.BtnEditar.UseVisualStyleBackColor = false;
+            this.BtnEditar.Click += new System.EventHandler(this.BtnEditar_Click);
             // 
             // BtnGuardar
             // 
@@ -164,6 +169,7 @@
             this.BtnGuardar.TabIndex = 74;
             this.BtnGuardar.Text = "Guardar";
             this.BtnGuardar.UseVisualStyleBackColor = false;
+            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
             // BtnNuevo
             // 
@@ -180,6 +186,7 @@
             this.BtnNuevo.TabIndex = 73;
             this.BtnNuevo.Text = "Nuevo";
             this.BtnNuevo.UseVisualStyleBackColor = false;
+            this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
             // 
             // label1
             // 
@@ -195,6 +202,7 @@
             // RdbActivo
             // 
             this.RdbActivo.AutoSize = true;
+            this.RdbActivo.Checked = true;
             this.RdbActivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
             this.RdbActivo.Location = new System.Drawing.Point(33, 27);
             this.RdbActivo.Name = "RdbActivo";
@@ -242,10 +250,36 @@
             // DgvUsuario
             // 
             this.DgvUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvUsuario.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colCodigo,
+            this.colClave,
+            this.colNivel,
+            this.colEstado});
             this.DgvUsuario.Location = new System.Drawing.Point(31, 279);
             this.DgvUsuario.Name = "DgvUsuario";
             this.DgvUsuario.Size = new System.Drawing.Size(807, 263);
             this.DgvUsuario.TabIndex = 97;
+            this.DgvUsuario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvUsuario_CellClick);
+            // 
+            // colCodigo
+            // 
+            this.colCodigo.HeaderText = "Código";
+            this.colCodigo.Name = "colCodigo";
+            // 
+            // colClave
+            // 
+            this.colClave.HeaderText = "Clave";
+            this.colClave.Name = "colClave";
+            // 
+            // colNivel
+            // 
+            this.colNivel.HeaderText = "Nivel";
+            this.colNivel.Name = "colNivel";
+            // 
+            // colEstado
+            // 
+            this.colEstado.HeaderText = "Estado";
+            this.colEstado.Name = "colEstado";
             // 
             // pictureBox6
             // 
@@ -336,5 +370,9 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ComboBox CmbNivel;
         private System.Windows.Forms.DataGridView DgvUsuario;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colCodigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colClave;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colNivel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colEstado;
     }
 }

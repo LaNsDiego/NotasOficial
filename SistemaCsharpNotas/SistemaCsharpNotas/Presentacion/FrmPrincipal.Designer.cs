@@ -36,7 +36,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PnlContenedor = new System.Windows.Forms.Panel();
+            this.BtnUsuarios = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -105,6 +107,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(66)))), ((int)(((byte)(144)))));
+            this.panel3.Controls.Add(this.BtnUsuarios);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 100);
             this.panel3.Name = "panel3";
@@ -140,6 +143,21 @@
             this.PnlContenedor.Size = new System.Drawing.Size(702, 456);
             this.PnlContenedor.TabIndex = 4;
             // 
+            // BtnUsuarios
+            // 
+            this.BtnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(66)))), ((int)(((byte)(144)))));
+            this.BtnUsuarios.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(66)))), ((int)(((byte)(144)))));
+            this.BtnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.BtnUsuarios.ForeColor = System.Drawing.Color.White;
+            this.BtnUsuarios.Location = new System.Drawing.Point(0, 129);
+            this.BtnUsuarios.Name = "BtnUsuarios";
+            this.BtnUsuarios.Size = new System.Drawing.Size(200, 41);
+            this.BtnUsuarios.TabIndex = 3;
+            this.BtnUsuarios.Text = "Usuarios";
+            this.BtnUsuarios.UseVisualStyleBackColor = false;
+            this.BtnUsuarios.Click += new System.EventHandler(this.BtnUsuarios_Click);
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -153,6 +171,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -169,6 +188,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel PnlContenedor;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnUsuarios;
     }
 }
 
