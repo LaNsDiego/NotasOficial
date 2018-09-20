@@ -54,11 +54,11 @@ namespace SistemaCsharpNotas.Negocio
 
         }
 
-        public bool Buscar(int Id)
+        public bool Buscar(int Id,int columnaParaComparar = 0)
         {
 
-            string val = ClsNFichero.Buscar(Id.ToString(), "carreras.txt");
-            if (val != "")
+            string val = ClsNFichero.Buscar(Id.ToString(), "carreras.txt",columnaParaComparar);
+            if (val != null)
             {
                 return true;
             }

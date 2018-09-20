@@ -84,7 +84,7 @@
             this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.BtnBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.BtnBuscar.Location = new System.Drawing.Point(508, 229);
+            this.BtnBuscar.Location = new System.Drawing.Point(491, 229);
             this.BtnBuscar.Name = "BtnBuscar";
             this.BtnBuscar.Size = new System.Drawing.Size(127, 32);
             this.BtnBuscar.TabIndex = 53;
@@ -394,7 +394,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmEstudiante";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "FrmEstudiante";
+            this.Text = "7";
             this.Load += new System.EventHandler(this.FrmEstudiante_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

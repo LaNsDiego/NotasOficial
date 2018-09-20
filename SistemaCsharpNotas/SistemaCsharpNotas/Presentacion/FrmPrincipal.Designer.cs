@@ -33,10 +33,11 @@
             this.BtnDocente = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.BtnUsuarios = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PnlContenedor = new System.Windows.Forms.Panel();
-            this.BtnUsuarios = new System.Windows.Forms.Button();
+            this.BtnCarreras = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -107,12 +108,28 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(66)))), ((int)(((byte)(144)))));
+            this.panel3.Controls.Add(this.BtnCarreras);
             this.panel3.Controls.Add(this.BtnUsuarios);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 100);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 356);
             this.panel3.TabIndex = 5;
+            // 
+            // BtnUsuarios
+            // 
+            this.BtnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(66)))), ((int)(((byte)(144)))));
+            this.BtnUsuarios.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(66)))), ((int)(((byte)(144)))));
+            this.BtnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.BtnUsuarios.ForeColor = System.Drawing.Color.White;
+            this.BtnUsuarios.Location = new System.Drawing.Point(0, 129);
+            this.BtnUsuarios.Name = "BtnUsuarios";
+            this.BtnUsuarios.Size = new System.Drawing.Size(200, 41);
+            this.BtnUsuarios.TabIndex = 3;
+            this.BtnUsuarios.Text = "Usuarios";
+            this.BtnUsuarios.UseVisualStyleBackColor = false;
+            this.BtnUsuarios.Click += new System.EventHandler(this.BtnUsuarios_Click);
             // 
             // panel2
             // 
@@ -143,20 +160,19 @@
             this.PnlContenedor.Size = new System.Drawing.Size(702, 456);
             this.PnlContenedor.TabIndex = 4;
             // 
-            // BtnUsuarios
+            // BtnCarreras
             // 
-            this.BtnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(66)))), ((int)(((byte)(144)))));
-            this.BtnUsuarios.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(66)))), ((int)(((byte)(144)))));
-            this.BtnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.BtnUsuarios.ForeColor = System.Drawing.Color.White;
-            this.BtnUsuarios.Location = new System.Drawing.Point(0, 129);
-            this.BtnUsuarios.Name = "BtnUsuarios";
-            this.BtnUsuarios.Size = new System.Drawing.Size(200, 41);
-            this.BtnUsuarios.TabIndex = 3;
-            this.BtnUsuarios.Text = "Usuarios";
-            this.BtnUsuarios.UseVisualStyleBackColor = false;
-            this.BtnUsuarios.Click += new System.EventHandler(this.BtnUsuarios_Click);
+            this.BtnCarreras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(66)))), ((int)(((byte)(144)))));
+            this.BtnCarreras.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(66)))), ((int)(((byte)(144)))));
+            this.BtnCarreras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCarreras.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.BtnCarreras.ForeColor = System.Drawing.Color.White;
+            this.BtnCarreras.Location = new System.Drawing.Point(3, 174);
+            this.BtnCarreras.Name = "BtnCarreras";
+            this.BtnCarreras.Size = new System.Drawing.Size(200, 41);
+            this.BtnCarreras.TabIndex = 4;
+            this.BtnCarreras.Text = "Carreras";
+            this.BtnCarreras.UseVisualStyleBackColor = false;
             // 
             // FrmPrincipal
             // 
@@ -189,6 +205,7 @@
         private System.Windows.Forms.Panel PnlContenedor;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button BtnUsuarios;
+        private System.Windows.Forms.Button BtnCarreras;
     }
 }
 

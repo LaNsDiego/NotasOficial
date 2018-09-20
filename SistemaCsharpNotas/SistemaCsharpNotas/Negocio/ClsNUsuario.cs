@@ -53,8 +53,8 @@ namespace SistemaCsharpNotas.Negocio
 
         public bool Buscar(int Id)
         {
-            string val = ClsNFichero.Buscar(Id.ToString(), "usuarios.txt");
-            return val != "" ? true : false;
+            string fila = ClsNFichero.Buscar(Id.ToString(), "usuarios.txt");
+            return fila != null ? true : false;
         }
 
         public bool Login(string codigo, string clave)

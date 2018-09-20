@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace PrjSemana02.Negocios
+namespace SistemaCsharpNotas.Negocio
 {
     abstract class ClsNRequerido
     {

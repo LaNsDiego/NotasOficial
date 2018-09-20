@@ -22,7 +22,7 @@ namespace SistemaCsharpNotas.Negocio
             return lector != null ? lector : new StreamReader(tabla);
         }
 
-        public static void Agregar(string linea , string tabla)
+        public static void Agregar(string linea, string tabla)
         {
             StreamWriter escritor = ClsNFichero.ObtenerEscritor(tabla);
             escritor.WriteLine(linea);
@@ -83,5 +83,6 @@ namespace SistemaCsharpNotas.Negocio
             lector.Close();
             return filas;
         }
+
     }
 }

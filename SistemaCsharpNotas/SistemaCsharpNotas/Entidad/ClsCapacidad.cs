@@ -16,7 +16,7 @@ namespace SistemaCsharpNotas.Entidad
         private bool estado;
 
         public int Id { get => id; set => id = value; }
-        public int Nota_id { get => nota_id; set => nota_id = value; }
+        public int NotaId { get => nota_id; set => nota_id = value; }
         public int Numero { get => numero; set => numero = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public double Calificacion { get => calificacion; set => calificacion = value; }

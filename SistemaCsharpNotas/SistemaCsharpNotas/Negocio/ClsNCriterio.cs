@@ -11,7 +11,7 @@ namespace SistemaCsharpNotas.Negocio
     {
         public bool Agregar(ClsCriterio criterio)
         {
-            string lina = criterio.Id.ToString() + " , " + criterio.Capacidad_id + " , " + criterio.Nombre + " , " + criterio.Descripcion + " , " + criterio.Calificacion + " , " + criterio.Estado;
+            string lina = criterio.Id.ToString() + " , " + criterio.CapacidadId + " , " + criterio.Nombre + " , " + criterio.Descripcion + " , " + criterio.Calificacion + " , " + criterio.Estado;
 
             ClsNFichero.Agregar(lina, "criterios.txt");
             return true;
@@ -25,7 +25,7 @@ namespace SistemaCsharpNotas.Negocio
             campos = linea.Split(',');
             ClsCriterio criterio = new ClsCriterio();
             criterio.Id = Convert.ToInt32(campos[0]);
-            criterio.Capacidad_id = Convert.ToInt32(campos[1]);
+            criterio.CapacidadId = Convert.ToInt32(campos[1]);
             criterio.Nombre = campos[2];
             criterio.Descripcion = campos[3];
             criterio.Calificacion = Convert.ToDouble(campos[4]);
@@ -49,25 +49,39 @@ namespace SistemaCsharpNotas.Negocio
 
         public bool Modificar(ClsCriterio criterio)
         {
-            string nuevoregistro = criterio.Id.ToString() + " , " + criterio.Capacidad_id + " , " + criterio.Nombre + " , " + criterio.Descripcion + " , " + criterio.Calificacion + " , " + criterio.Estado;
+            string nuevoregistro = criterio.Id.ToString() + " , " + criterio.CapacidadId + " , " + criterio.Nombre + " , " + criterio.Descripcion + " , " + criterio.Calificacion + " , " + criterio.Estado;
             return ClsNFichero.Editar(criterio.Id.ToString(), nuevoregistro, "criterios.txt");
 
         }
 
-        public bool Buscar(int Id)
+        public ClsCriterio Buscar(int Id)
         {
 
-            string val = ClsNFichero.Buscar(Id.ToString(), "criterios.txt");
-            if (val != "")
+            string fila = ClsNFichero.Buscar(Id.ToString(), "criterios.txt");
+            if (fila != null)
             {
-                return true;
+                return ClsNCriterio.Parse(fila);
             }
             else
             {
-                return false;
+                return null;
             }
-
-
         }
+
+        public ArrayList ObtenerIndicadores(int id)
+        {
+            ArrayList indicadoresHijos = new ArrayList();
+            ArrayList indicadores = Listar();
+            foreach (ClsIndicador indicador in indicadores)
+            {
+                if (indicador.CriterioId == id)
+                {
+                    indicadoresHijos.Add(indicador);
+                }
+            }
+            return indicadores;
+        }
+
+
     }
 }
